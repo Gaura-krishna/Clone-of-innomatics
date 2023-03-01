@@ -1,0 +1,77 @@
+body{
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'
+}
+.text-white{
+    color:white;
+}
+
+.grad-linear-color{
+    color:white;
+    background-image: linear-gradient(to right ,blacK,rgb(34, 34, 122));
+}
+.grad {
+    color:white;
+    background-image: linear-gradient(to right, rgb(2, 2, 2) , rgb(7,21,46));
+  }
+ul{
+    list-style: none;
+}
+.text-red{
+    color:red
+}
+.callbutton{
+    color: white;
+    
+    border:none;
+  
+    height: max-content;
+    transition: 2s;
+}
+.list{
+    list-style:circle; 
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+
+}
+.expandcalldiv{
+    margin: 1rem;
+    width:9rem;
+    height:9.5rem;
+    background-color: rgba(255, 255, 255, 0.904);
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+    border-radius:15px ;
+    border: 1px solid red;
+    
+}
+.inquiry-div{
+    border-radius:15px ;
+    background-color: white;
+    color: red;
+    transition: 50s;
+    transition-timing-function: ease-in-out;
+    
+
+}
+.inquiry-div a{
+    text-decoration: none;
+    color: red;
+}
+.inquiry-div a:hover{
+    text-decoration: none;
+    color:black;
+}
+.calldiv{
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+}
+a{
+    text-decoration: none !important
+}
+
